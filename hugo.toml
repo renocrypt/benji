@@ -20,7 +20,7 @@ links = [
   { email = "mailto:hello@your_domain.com" },
   { web = { href = "https://benji.appcubic.com/", text = "Website" } },
   { research = { href = "https://research.appcubic.com/", text = "Research" } },
-  { research = { href = "https://linkedin.com/in/benjiph", text = "LinkedIn" } },
+  # { linkin = { href = "https://linkedin.com/in/benjiph", text = "LinkedIn" } },
   { linkedin = { href = "https://linkedin.com/in/benjiph", text = "LinkedIn" } },
   # { apple = "https://www.apple.com" },
   # { codepen = "https://codepen.io/username" },
