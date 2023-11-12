@@ -9,6 +9,7 @@ copyright = "_RenoCrypt_ &copy;2023 :ice:"
 
 enableEmoji = true
 disableKinds = ["taxonomy", "term"]
+googleAnalytics = "G-6L7V5YG0QJ"
 
 [author]
 name = "Benji Peng, Ph.D."
@@ -17,9 +18,10 @@ image = "benji.jpg"                                                         # pa
 
 links = [
   { email = "mailto:hello@your_domain.com" },
-  { link = { href = "https://benji.appcubic.com/", text = "Website" } },
+  { web = { href = "https://benji.appcubic.com/", text = "Website" } },
   { research = { href = "https://research.appcubic.com/", text = "Research" } },
-  { linkedin = "https://linkedin.com/in/benjiph" },
+  { research = { href = "https://linkedin.com/in/benjiph", text = "LinkedIn" } },
+  { linkedin = { href = "https://linkedin.com/in/benjiph", text = "LinkedIn" } },
   # { apple = "https://www.apple.com" },
   # { codepen = "https://codepen.io/username" },
   # { dev = "https://dev.to/username" },
