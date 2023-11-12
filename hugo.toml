@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://benji.renocrypt.com'
 languageCode = 'en-us'
 title = 'Benji Peng, Ph.D.'
 theme = 'lynx'
@@ -12,13 +12,13 @@ disableKinds = ["taxonomy", "term"]
 
 [author]
 name = "Benji Peng, Ph.D."
-headline = "An awesome person"
-image = "benji.jpg"            # path relative to static directory
+headline = "Co-Founding Software Engineer / Product Development Specialist"
+image = "benji.jpg"                                                         # path relative to static directory
 
 links = [
   { email = "mailto:hello@your_domain.com" },
-  { link = "https://link-to-some-website.com/" },
-  # { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
+  { link = { href = "https://benji.appcubic.com/", text = "Website" } },
+  { research = { href = "https://research.appcubic.com/", text = "Research" } },
   # { apple = "https://www.apple.com" },
   # { codepen = "https://codepen.io/username" },
   # { dev = "https://dev.to/username" },
@@ -59,4 +59,4 @@ links = [
 [module]
 [module.hugoVersion]
 extended = false
-min = "0.86.1"
+# min = "0.86.1"
