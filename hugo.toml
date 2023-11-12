@@ -1,4 +1,4 @@
-baseURL = 'https://benji.renocrypt.com'
+baseURL = '/'
 languageCode = 'en-us'
 title = 'Benji Peng, Ph.D.'
 theme = 'lynx'
