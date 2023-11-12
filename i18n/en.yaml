@@ -1,0 +1,47 @@
+link:
+  amazon: Amazon
+  apple: Apple
+  codepen: CodePen
+  dev: DEV
+  discord: Discord
+  dribbble: Dribbble
+  email: Email
+  facebook: Facebook
+  flickr: Flickr
+  foursquare: Foursquare
+  github: GitHub
+  gitlab: GitLab
+  google: Google
+  instagram: Instagram
+  keybase: Keybase
+  kickstarter: Kickstarter
+  lastfm: Last.fm
+  link: Website
+  linkedin: LinkedIn
+  mastodon: Mastodon
+  medium: Medium
+  microsoft: Microsoft
+  orcid: ORCiD
+  patreon: Patreon
+  pinterest: Pinterest
+  reddit: Reddit
+  researchgate: ResearchGate
+  slack: Slack
+  snapchat: Snapchat
+  soundcloud: Soundcloud
+  steam: Steam
+  telegram: Telegram
+  tiktok: TikTok
+  tumblr: Tumblr
+  twitch: Twitch
+  twitter: Twitter
+  whatsapp: WhatsApp
+  youtube: YouTube
+  stack-exchange: Stack Exchange
+  stack-overflow: Stack Overflow
+
+nav:
+  home: Home
+
+footer:
+  powered_by: "Powered by {{ .Hugo }} &amp; {{ .AppCubic }}"
