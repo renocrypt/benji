@@ -5,7 +5,7 @@ theme = 'lynx'
 
 defaultContentLanguage = "en"
 
-copyright = "_RenoCrypt_ &copy;2023 :ice:"
+copyright = "_RenoCrypt_ &copy;2024 :ice:"
 
 enableEmoji = true
 disableKinds = ["taxonomy", "term"]
@@ -13,7 +13,7 @@ googleAnalytics = "G-6L7V5YG0QJ"
 
 [author]
 name = "Benji Peng, Ph.D."
-headline = "Co-Founding Software Engineer / Product Development Specialist"
+headline = "Biophysicist / Co-Founding Software Engineer / Product Development Specialist"
 image = "benji.jpg"                                                         # path relative to static directory
 
 links = [
@@ -33,7 +33,7 @@ links = [
   { github = "https://github.com/benjipeng" },
   # { gitlab = "https://gitlab.com/benjipeng" },
   # { google = "https://www.google.com/" },
-  # { instagram = "https://instagram.com/username" },
+  { instagram = "https://instagram.com/ben_flyer" },
   # { keybase = "https://keybase.io/username" },
   # { kickstarter = "https://www.kickstarter.com/profile/username" },
   # { lastfm = "https://lastfm.com/user/username" },
@@ -53,7 +53,7 @@ links = [
   # { tiktok = "https://tiktok.com/@username" },
   # { tumblr = "https://username.tumblr.com" },
   # { twitch = "https://twitch.tv/username" },
-  # { twitter = "https://twitter.com/username" },
+  { twitter = "https://twitter.com/benjipeng" },
   # { whatsapp = "https://wa.me/phone-number" },
   # { youtube = "https://youtube.com/username" },
 ]
