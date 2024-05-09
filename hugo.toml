@@ -56,8 +56,9 @@ links = [
   # { twitch = "https://twitch.tv/username" },
   # { whatsapp = "https://wa.me/phone-number" },
   # { youtube = "https://youtube.com/username" },
-  { research = { href = "https://research.appcubic.com/", text = "Ph.D. Research" } },
-  { web = { href = "https://renocrypt.com", text = "Random Blog" } },
+  { research = { href = "https://research.appcubic.com/", text = "My Ph.D. Research" } },
+  { web = { href = "https://www.renocrypt.com", text = "Blog On ML and Engineering" } },
+  { web = { href = "https://futur.renocrypt.com", text = "Blog On Science" } },
 ]
 
 [module]
