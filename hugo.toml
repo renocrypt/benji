@@ -15,7 +15,7 @@ googleAnalytics = "G-6L7V5YG0QJ"
 [params.author]
 name = "Benji Peng, Ph.D."
 headline = "Biophysicist / Co-founding... / A.K.A Dr. Honeycutt"
-image = "benji.jpg"                                              # path relative to static directory
+image = "benji.webp"                                             # path relative to static directory
 
 links = [
   { github = "https://github.com/benjipeng" },
@@ -56,9 +56,9 @@ links = [
   # { twitch = "https://twitch.tv/username" },
   # { whatsapp = "https://wa.me/phone-number" },
   # { youtube = "https://youtube.com/username" },
-  { fa-book = { href = "https://research.appcubic.com/", text = "My Ph.D. Research" } },
-  { web = { href = "https://www.renocrypt.com", text = "Blog On ML and Engineering" } },
-  { web = { href = "https://futur.renocrypt.com", text = "Blog On Science" } },
+  { orcid = { href = "https://benji-scientist.renocrypt.com/", text = "More About My Research" } },
+  { pen-nib = { href = "https://benji-design.renocrypt.com", text = "Designed by Benji" } },
+  { web = { href = "https://www.renocrypt.com", text = "Blog On Science / ML" } },
 ]
 
 [module]

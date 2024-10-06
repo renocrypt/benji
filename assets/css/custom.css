@@ -1,23 +1,33 @@
 .link-research {
   background: rgb(195, 68, 199);
-  background: linear-gradient(90deg,
-      rgb(115, 58, 180) 0%,
-      rgb(253, 119, 29) 50%,
-      rgb(252, 237, 69) 100%);
+  background: linear-gradient(
+    90deg,
+    rgb(115, 58, 180) 0%,
+    rgb(253, 119, 29) 50%,
+    rgb(252, 237, 69) 100%
+  );
 }
 
 .link-web {
   background: rgb(199, 175, 68);
-  background: linear-gradient(90deg,
-      rgb(95, 180, 58) 0%,
-      rgb(104, 29, 253) 50%,
-      rgb(69, 252, 215) 100%);
+  background: linear-gradient(
+    90deg,
+    rgb(95, 180, 58) 0%,
+    rgb(104, 29, 253) 50%,
+    rgb(69, 252, 215) 100%
+  );
 }
 
 .link-linkin {
   background: rgb(10, 102, 194);
-  background: linear-gradient(90deg,
-      rgb(13, 80, 194) 0%,
-      rgb(15, 92, 169) 50%,
-      rgb(20, 92, 169) 100%);
+  background: linear-gradient(
+    90deg,
+    rgb(13, 80, 194) 0%,
+    rgb(15, 92, 169) 50%,
+    rgb(20, 92, 169) 100%
+  );
+}
+
+.link-pen-nib {
+  background: rgb(195, 68, 199);
 }
