@@ -3,7 +3,7 @@
     {{/* Copyright */}}
     <p class="text-sm text-neutral-500 dark:text-neutral-400">
       {{- with .Site.Copyright }}
-        {{ . | emojify | markdownify }}
+        {{ . | emojify | markdownify }} {{ now.Format "2006" }} {{ $.Site.Params.author.name }}
       {{- else }}
         &copy;
         {{ now.Format "2006" }}

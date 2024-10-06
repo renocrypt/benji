@@ -5,24 +5,25 @@ theme = 'lynx'
 
 defaultContentLanguage = "en"
 
-copyright = "_RenoCrypt_ &copy;2024 :ice:"
+copyright = "_RenoCrypt_ &copy;"
 
 enableEmoji = true
 disableKinds = ["taxonomy", "term"]
 googleAnalytics = "G-6L7V5YG0QJ"
 
-[author]
+
+[params.author]
 name = "Benji Peng, Ph.D."
 headline = "Biophysicist / Co-founding... / A.K.A Dr. Honeycutt"
-image = "benji.jpg"                                                         # path relative to static directory
+image = "benji.jpg"                                              # path relative to static directory
 
 links = [
-  { twitter = "https://twitter.com/benjipeng" },
-  { linkin = { href = "https://linkedin.com/in/benjiph", text = "LinkedIn" } },
+  { github = "https://github.com/benjipeng" },
+  { linkedin = { href = "https://linkedin.com/in/benjiph" } },
+  # { linkin = { href = "https://linkedin.com/in/benjiph", text = "LinkedIn" } },
+  { x = { href = "https://twitter.com/benjipeng", text = "Formerly Twitter" } },
   { instagram = "https://instagram.com/ben_flyer" },
   # { email = "mailto:hello@your_domain.com" },
-
-  # { linkedin = { href = "https://linkedin.com/in/benjiph", text = "LinkedIn" } },
   { discord = "https://discordapp.com/users/787673267657244682" },
   # { apple = "https://www.apple.com" },
   # { codepen = "https://codepen.io/username" },
@@ -32,7 +33,6 @@ links = [
   # { facebook = "https://facebook.com/username" },
   # { flickr = "https://www.flickr.com/photos/username/" },
   # { foursquare = "https://foursquare.com/username" },
-  { github = "https://github.com/benjipeng" },
   # { gitlab = "https://gitlab.com/benjipeng" },
   # { google = "https://www.google.com/" },
   # { keybase = "https://keybase.io/username" },
@@ -56,7 +56,7 @@ links = [
   # { twitch = "https://twitch.tv/username" },
   # { whatsapp = "https://wa.me/phone-number" },
   # { youtube = "https://youtube.com/username" },
-  { research = { href = "https://research.appcubic.com/", text = "My Ph.D. Research" } },
+  { fa-book = { href = "https://research.appcubic.com/", text = "My Ph.D. Research" } },
   { web = { href = "https://www.renocrypt.com", text = "Blog On ML and Engineering" } },
   { web = { href = "https://futur.renocrypt.com", text = "Blog On Science" } },
 ]
