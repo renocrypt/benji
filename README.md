@@ -41,6 +41,46 @@ This project is open source and available under the [MIT License](LICENSE).
 
 Feel free to reach out on any of the platforms linked on the main page. Whether you want to discuss biophysics, web design, or the best honey varieties, I'm all ears! 🐝
 
+## Swapping a Git Submodule
+
+To swap your Git submodule from the current repository to another one (in this case, from `themes/lynx` to `https://github.com/benjipeng/hugo-simpcard.git`), follow these steps:
+
+### 1. Remove the existing submodule
+
+First, you need to remove the current submodule. Run the following commands:
+
+```bash
+bash
+git submodule deinit -f themes/lynx
+git rm -f themes/lynx
+rm -rf .git/modules/themes/lynx
+```
+
+
+### 2. Add the new submodule
+
+Now, you can add the new submodule pointing to the desired repository:
+
+
+### 3. Initialize and update the submodule
+
+After adding the new submodule, initialize and update it:
+
+```bash
+bash
+git submodule update --init --recursive
+```
+
+### 4. Commit the changes
+
+Finally, commit the changes to your repository:
+
+```bash
+bash
+git commit -m "Swapped submodule from themes/lynx to hugo-simpcard"
+```
+
+
 ---
 
 Built with ❤️ and ☕ by Benji Peng, Ph.D. © 2024 RenoCrypt
