@@ -22,7 +22,7 @@ links = [
   { linkedin = { href = "https://linkedin.com/in/benjiph" } },
   # { linkin = { href = "https://linkedin.com/in/benjiph", text = "LinkedIn" } },
   { x = { href = "https://twitter.com/benjipeng", text = "Formerly Twitter" } },
-  { instagram = "https://instagram.com/ben_flyer" },
+  # { instagram = "https://instagram.com/ben_flyer" },
   # { email = "mailto:hello@your_domain.com" },
   { discord = "https://discordapp.com/users/787673267657244682" },
   # { apple = "https://www.apple.com" },
